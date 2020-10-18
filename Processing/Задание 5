@@ -1,0 +1,32 @@
+void setup() {
+  size(500,400);
+}
+
+void draw() {
+  background(0);
+  stroke(255);
+  fill(128);
+
+  if (mousePressed) {
+    background(22,208,236);
+stroke(255, 255, 255);
+fill(251,251,251);
+ellipse(250, 200, 70, 70);
+ellipse(250, 280, 100, 100);
+rect(280, 230, 50, 10);
+rect(170, 230, 50, 10);
+
+fill(255,166,0);
+rect(245, 197, 10, 20);
+
+fill(0,0,0);
+ellipse(265, 189, 5, 5);
+ellipse(235, 189, 5, 5);
+  } else {
+    ellipse(250, 200, 100, 100);
+
+
+
+
+
+
